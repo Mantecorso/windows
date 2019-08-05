@@ -5,7 +5,94 @@
     outline: none;
 }
 
+body {
+    background-color: #449dd1;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.contenedor2 {
+    border: 2px solid #ad75d8;
+    border-bottom-left-radius: 10px;
+    background-color: #ad75d8;
+    width: 98%;
+    height: 600px;
+    margin-top: 2%;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    z-index: 3;
+}
+
+.contenedor3 {
+    border: 2px solid rgb(180, 60, 60);
+    border-bottom-left-radius: 10px;
+    background-color: rgb(180, 60, 60);
+    width: 96%;
+    height: 610px;
+    margin-top: 2%;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    z-index: 4;
+}
+
+.contenedor4 {
+    border: 2px solid #4680a1;
+    border-bottom-left-radius: 10px;
+    background-color: #4680a1;
+    width: 94%;
+    height: 620px;
+    margin-top: 2%;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    z-index: 5;
+}
+
+.contenedor5 {
+    border: 2px solid #2e7c1e;
+    border-bottom-left-radius: 10px;
+    background-color: #2e7c1e;
+    width: 92%;
+    height: 630px;
+    margin-top: 2%;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    z-index: 6;
+}
+
+.contenedor6 {
+    border: 2px solid #6b8118;
+    border-bottom-left-radius: 10px;
+    background-color: #6b8118;
+    width: 90%;
+    height: 640px;
+    margin-top: 2%;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    z-index: 7;
+}
+
+.lugar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(2, 2, 83);
+    font-weight: bold;
+}
+
 h1 {
+    font-size: 2rem;
     text-align: center;
-    padding: 1%;
+    margin: 0;
+    padding: .5rem;
+}
+
+.newcolor {
+    color: rgb(255, 196, 0);
 }
